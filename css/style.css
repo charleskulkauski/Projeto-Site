@@ -1,0 +1,177 @@
+body{
+    font-family: 'Red Hat Display';
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color:#a16545;
+    color: #fbf8f9;
+    border-bottom: 2px solid #753a22;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:70px;
+}
+.agora{
+    font-weight:bold;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+    width:400px;
+    
+}
+.navbar a{
+    text-decoration:none;
+    color:white;
+}
+
+.banner{
+    background-image: url(./../img/Grao-de-cafe.jpg);
+    background-size: cover;
+}
+
+.banner p{
+    font-size: 40px;
+    width: 724px;
+    text-align:center;
+    align-items:center;
+}
+
+.container02{
+    width:80%;
+    margin:auto;
+    height: 580px;
+    display:flex;
+    align-items:center;
+    color:white
+}
+
+.servicos{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    width:80%;
+    margin:auto;
+    height:500px;
+
+
+}
+.box{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.titulo{
+    font-weight:bold;
+    font-size:30px;
+    margin-top:9px;
+}
+
+.servicos img{
+    width:150px;
+    height:150px;
+    display:flex;   
+    margin:auto;
+}
+
+.servicos p{
+    width:300px;
+    
+}
+
+.footer{
+    background-color:#a16545;
+    color:white;
+    border:3px solid #753a22;
+}
+
+.container03{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:120px;
+}
+
+/*Login*/
+.banner .container02.login{
+    justify-content:center;
+}
+.card{
+    background-color: #fbf8f9;
+    border:2px solid #753a22;
+    border-radius:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 375px;
+    color: #a16545;
+}
+
+h2{
+    margin:0;
+    margin-bottom: 3px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+}
+
+form label{
+    margin-bottom: 8px;
+}
+
+form input{
+    margin-bottom: 3%;
+    outline: 2px solid #a16545;
+    border:0;
+    padding:8px;
+    border-radius:20px;
+}
+
+button{
+    margin-top: 6%;
+    border:0;
+    border-radius: 20px;
+    background-color: #a16545;
+    padding: 10px 15px;
+    width: 180px;
+    font-size: 20px;
+    align-self: center;
+    cursor:auto;
+    color:#fbf8f9;
+    font-family: 'Red Hat Display';
+}
+
+/*Cadastro*/
+.banner .container02.cadastro{
+    justify-content:center
+}
+
+.card-cadastro{
+    background-color: #fbf8f9;
+    border:2px solid #753a22;
+    border-radius:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 475px;
+    color: #a16545;
+}
